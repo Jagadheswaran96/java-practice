@@ -16,13 +16,20 @@ Handling WebElements and browser actions
 
 🔹 Advanced Selenium Topics
 
-Synchronization (Implicit, Explicit, Fluent waits), 
-Handling dynamic elements, 
-StaleElementReferenceException handling, 
-Frames, Alerts, Windows, Popups, 
-Actions class (mouse & keyboard events), 
-JavaScriptExecutor usage, 
-File upload & download, 
+Synchronization (Implicit, Explicit, Fluent waits)
+
+Handling dynamic elements
+
+StaleElementReferenceException handling
+
+Frames, Alerts, Windows, Popups
+
+Actions class (mouse & keyboard events)
+
+JavaScriptExecutor usage
+
+File upload & download
+
 Headless execution
 
 🔹 Framework Design

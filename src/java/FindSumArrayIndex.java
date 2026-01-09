@@ -8,7 +8,7 @@ import java.util.Map;
 public class FindSumArrayIndex {
 
     public static void main(String[] args) {
-        int[] arr = {2, 7, 3, 4, 5, 6, 7};
+        int[] arr = {2,7,11,15};
         int target = 9;
 
         findSubarrayWithSum(arr, target);

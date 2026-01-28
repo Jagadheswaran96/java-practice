@@ -16,7 +16,7 @@ public class LoginWithExcelData {
 		WebDriver driver=new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get("https://demo.actitime.com/login.do");
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1000));
 		for (int i = 1; i <=4; i++) {
 			String userName=excel_2.excelLogin("sheet1", i, 0);
 			String passWord=excel_2.excelLogin("sheet1", i, 1);

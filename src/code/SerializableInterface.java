@@ -16,45 +16,45 @@ Use ObjectOutputStream to write the object to a file.
 Use ObjectInputStream to read the object from a file. */
 
 class Person implements Serializable {
-    /**
+	/**
 	 * 
 	 */
 	private static final long serialVersionUID = -7038948375760731463L;
 	private String name;
-    private int age;
+	private int age;
 
-    public Person(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
+	public Person(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
 
-    @Override
-    public String toString() {
-        return "Person{name='" + name + "', age=" + age + '}';
-    }
+	@Override
+	public String toString() {
+		return "Person{name='" + name + "', age=" + age + '}';
+	}
 }
 
 public class SerializableInterface {
 
 	public static void main(String[] args) {
-		
-Person person = new Person("John", 30);
-        
-        // Serialization
-        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("person.ser"))) {
-            oos.writeObject(person);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
 
-        // Deserialization
-        try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream("person.ser"))) {
-            Person deserializedPerson = (Person) ois.readObject();
-            System.out.println("Deserialized Person: " + deserializedPerson);
-        } catch (IOException | ClassNotFoundException e) {
-            e.printStackTrace();
-        }
-		
+		Person person = new Person("John", 30);
+
+		// Serialization
+		try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("personObjSerialization.json"))) {
+			oos.writeObject(person);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		// Deserialization
+		try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream("personObjSerialization.json"))) {
+			Person deserializedPerson = (Person) ois.readObject();
+			System.out.println("Deserialized Person: " + deserializedPerson);
+		} catch (IOException | ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+
 	}
 
 }

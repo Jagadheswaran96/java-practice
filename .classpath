@@ -6,7 +6,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/activation.jar"/>
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/activation-1.1.1.jar"/>
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/batik-all-1.13.jar"/>
@@ -215,8 +214,6 @@
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/apache-log4j-2.25.1-bin/log4j-layout-template-json-2.25.1.jar"/>
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/apache-log4j-2.25.1-bin/log4j-mongodb-2.25.1.jar"/>
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/apache-log4j-2.25.1-bin/log4j-mongodb4-2.25.1.jar"/>
-	<classpathentry kind="lib" path="F:/Eclipse/Jars/apache-log4j-2.25.1-bin/log4j-slf4j2-impl-2.25.1.jar"/>
-	<classpathentry kind="lib" path="F:/Eclipse/Jars/apache-log4j-2.25.1-bin/log4j-slf4j-impl-2.25.1.jar"/>
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/apache-log4j-2.25.1-bin/log4j-spring-boot-2.25.1.jar"/>
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/apache-log4j-2.25.1-bin/log4j-spring-cloud-config-client-2.25.1.jar"/>
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/apache-log4j-2.25.1-bin/log4j-taglib-2.25.1.jar"/>
@@ -225,5 +222,6 @@
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/apache-log4j-2.25.1-bin/log4j-web-2.25.1.jar"/>
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/selenium-java-4.35.0/guava-33.4.8-jre.jar"/>
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/selenium-java-4.35.0/guava-33.4.8-jre-sources.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

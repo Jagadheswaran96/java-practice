@@ -1,6 +1,6 @@
 package code;
 
-public class SeparateCharactersAndNumbersFromString3 {
+public class SeparateCharsAndNumsUsingCharacters_2 {
 	
 	public static void separator(String value) {
 		StringBuffer numberBuffer = new StringBuffer();
@@ -14,12 +14,12 @@ public class SeparateCharactersAndNumbersFromString3 {
 			else
 				characterBuffer.append(value.charAt(i));
  		}
-		System.out.println(numberBuffer);
-		System.out.println(characterBuffer);
-		System.out.println(alphabeticalBuffer);
+		System.out.println("Number: " + numberBuffer);
+		System.out.println("Special Characters: " + characterBuffer);
+		System.out.println("Alphabeticals: " + alphabeticalBuffer);
 	}	
 	public static void main(String[] args) {
-		String value = "qwerty!@#$%%^123456";
+		String value = "Aqwerty!@#$%%^123456";
 		separator(value);
 	}
 }

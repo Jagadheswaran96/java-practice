@@ -1,6 +1,6 @@
 package code;
 
-public class SeparateCharactersAndNumbersFromString {
+public class SeparateCharsAndNumsUsingCharacters {
 
 	static void splitString(String str){
 		StringBuffer alphabetic = new StringBuffer();
@@ -14,12 +14,12 @@ public class SeparateCharactersAndNumbersFromString {
 			else
 				specialCharacter.append(str.charAt(i));
 		}
-		System.out.println(alphabetic);
-		System.out.println(number);
-		System.out.println(specialCharacter);
+		System.out.println("Letters: " + alphabetic);
+		System.out.println("Numbers: " + number);
+		System.out.println("Special Characters: " + specialCharacter);
 	}
 	public static void main(String args[]){
-		String str = "jagadhes@mani#eesa123$vishnu";
+		String str = "Ajagadhes@mani#eesa123$vishnu";
 		splitString(str);
 	}
 }

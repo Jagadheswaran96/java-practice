@@ -1,55 +1,13 @@
-🚀 Selenium Automation & Java Interview Programs
+🚀 Java Interview Programs
 📌 Overview
 
-This repository contains a comprehensive collection of Selenium automation concepts (Basic → Advanced) along with core Java programs frequently asked in interviews.
-It is designed for QA Automation Engineers / SDETs who want to strengthen both automation skills and Java problem-solving ability.
+This repository contains a comprehensive collection of Java programs frequently asked in interviews.
+It is designed for QA Automation Engineers / SDETs who want to strengthen Java problem-solving ability.
 
-🧪 Java concepts (Includes DSA and LeetCode Problems)
-🔹 Core Selenium Concepts
-
-Selenium WebDriver architecture
-
-Browser drivers (Chrome, Firefox, Edge)
-
-Locators (ID, Name, XPath, CSS, Relative locators)
-
-Handling WebElements and browser actions
-
-🔹 Advanced Selenium Topics
-
-Synchronization (Implicit, Explicit, Fluent waits)
-
-Handling dynamic elements
-
-StaleElementReferenceException handling
-
-Frames, Alerts, Windows, Popups
-
-Actions class (mouse & keyboard events)
-
-JavaScriptExecutor usage
-
-File upload & download
-
-Headless execution
-
-🔹 Framework Design
-
-Page Object Model (POM)
-
-Hybrid framework structure
-
-Reusable utilities & helpers
-
-DriverManager with ThreadLocal
-
-Cross-browser execution
-
-Parallel execution using TestNG
-
-Config management using properties
+🧪 Java concepts (Includes DSA)
 
 🧩 Java Programs (Interview Focused)
+
 🔹 Core Java
 
 String manipulation programs
@@ -57,8 +15,6 @@ String manipulation programs
 Reverse string / palindrome
 
 Count characters / words
-
-Anagrams
 
 Fibonacci series
 
@@ -96,25 +52,15 @@ File handling programs
 
 This repository is curated to help with:
 
-Selenium interview questions
-
 Java coding rounds
-
-Automation framework design discussions
 
 Real-time debugging scenarios
 
-Each program and automation concept is written with clarity and interview relevance.
+Each program is written with clarity and interview relevance.
 
 🛠️ Tech Stack
 
 Language: Java
-
-Automation Tool: Selenium WebDriver
-
-Test Framework: TestNG, Cucumber (BDD) & Junit
-
-Build Tool: Maven
 
 IDE: Eclipse
 
@@ -122,11 +68,9 @@ Version Control: Git & GitHub
 
 ▶️ How to Run
 
-git clone https://github.com/Jagadheswaran96/Learn_Automation.git
+git clone https://github.com/Jagadheswaran96/java-practice.git
 
 cd your-repo-name
-
-mvn clean test
 
 🎯 Who Should Use This Repo?
 
@@ -142,11 +86,7 @@ Experienced engineers revising fundamentals
 
 ⭐ Why This Repository?
 
-✔ Covers end-to-end Selenium automation
-
 ✔ Includes real interview Java programs
-
-✔ Follows industry-standard framework practices
 
 ✔ Beginner-friendly + advanced-ready
 
@@ -160,5 +100,4 @@ Feel free to fork and raise a pull request.
 
 If you find this repository helpful, give it a ⭐
 
-Happy learning & automation 🚀
-"# Java-Practice" 
+Happy learning 🚀

@@ -9,7 +9,7 @@ import java.util.TreeSet;
 public class SortingListUsingSet {
 
 	public static void main(String args[]) { 
-		int[] count = {11, 22, 33, 44, 66, 55};
+		int[] count =  {22, 11, 44, 33, 66, 55};
 		Set<Integer> hset = new HashSet<Integer>();
 		try{
 			for(int i = 0; i < count.length; i++){

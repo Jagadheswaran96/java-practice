@@ -15,15 +15,13 @@ public class SortingListUsingSet {
 			for(int i = 0; i < count.length; i++){
 				hset.add(count[i]);
 			}
-			System.out.println(hset);
+			System.out.println("Values from Set: " + hset);
 
 			TreeSet<Integer> treeset = new TreeSet<Integer>(hset);
-			System.out.println("The sorted list is:");
-			System.out.println(treeset);
+			System.out.println("Using TreeSet: " + treeset);
 
 			Arrays.sort(count);
-			System.out.println(count); // it prints memory location reference
-			System.out.println(Arrays.toString(count));
+			System.out.println("Using Arrays Sort: " + Arrays.toString(count));
 
 		} catch(Exception e){
 			// e.printStackTrace();

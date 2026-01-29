@@ -3,7 +3,7 @@ package code;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class SortingElements {
+public class SortingList {
 
 	public static void main(String[] args) {
 
@@ -12,9 +12,11 @@ public class SortingElements {
 
 		int[] values= {4,2,1,5,3};
 		System.out.println(Arrays.toString(values));
+		
 		int length=values.length;
-		System.out.println(length);		
-		//using bubble sort algorithm
+		System.out.println(length);
+
+		//1. using bubble sort algorithm
 		for (int i = 0; i < length - 1; i++) {  // Outer loop runs (n-1) times
 		    for (int j = 0; j < length - i - 1; j++) {  // Inner loop reduces after each pass
 		        if (values[j] > values[j + 1]) {
@@ -24,18 +26,17 @@ public class SortingElements {
 		        }
 		    }
 		}
-		
 		System.out.println(Arrays.toString(values));
 		
-		//using parallel sort built in method
+		//2. using parallel sort built in method
 		Arrays.parallelSort(values);
 		System.out.println(Arrays.toString(values));
 		
-		//using sort built in method
+		//3. using sort built in method
 		Arrays.sort(values);
 		System.out.println(Arrays.toString(values));
 		
-		//using collections.reverseorder built in method
+		//4. using collections.reverseorder built in method
 		Integer[] values1= {4,2,1,5,3};
 		Arrays.sort(values1,Collections.reverseOrder());
 		System.out.println(Arrays.toString(values1));

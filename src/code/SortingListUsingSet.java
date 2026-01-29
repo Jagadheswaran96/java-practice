@@ -18,10 +18,10 @@ public class SortingListUsingSet {
 			System.out.println("Values from Set: " + hset);
 
 			TreeSet<Integer> treeset = new TreeSet<Integer>(hset);
-			System.out.println("Using TreeSet: " + treeset);
+			System.out.println("Sorted Using TreeSet: " + treeset);
 
 			Arrays.sort(count);
-			System.out.println("Using Arrays Sort: " + Arrays.toString(count));
+			System.out.println("Sorted Using Arrays Sort: " + Arrays.toString(count));
 
 		} catch(Exception e){
 			// e.printStackTrace();

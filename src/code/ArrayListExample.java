@@ -12,7 +12,7 @@ public class ArrayListExample {
 		boolean arr3=arrayList.add("string 3");
 		System.out.println(arr);*/
 		
-		ArrayList<String> arrayList=new ArrayList<String>();
+		ArrayList<String> arrayList = new ArrayList<String>();
 		arrayList.add("string 1");
 		arrayList.add("string 2");
 		arrayList.add("string 3");

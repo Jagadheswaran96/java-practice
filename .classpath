@@ -59,7 +59,6 @@
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/poi-ooxml-full-5.0.0.jar"/>
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/poi-ooxml-lite-5.0.0.jar"/>
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/poi-scratchpad-5.0.0.jar"/>
-	<classpathentry kind="lib" path="F:/Eclipse/Jars/rest-assured-5.5.0.jar"/>
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/slf4j-api-1.7.30.jar"/>
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/SparseBitSet-1.2.jar"/>
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/webdrivermanager-4.4.3.jar"/>

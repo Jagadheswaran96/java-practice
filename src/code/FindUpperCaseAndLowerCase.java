@@ -9,7 +9,7 @@ public class FindUpperCaseAndLowerCase {
 	 * System.out.println("UpperCases are:" + name.charAt(i)); }else
 	 * if(Character.isLowerCase(name.charAt(i))){
 	 * System.out.println("LowerCases are:" + name.charAt(i)); }
-	 * 
+	 *
 	 * } }
 	 */
 	 public static void main (String[]args)

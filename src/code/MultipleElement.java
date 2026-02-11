@@ -16,16 +16,16 @@ public class MultipleElement {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://krninformatix.com/");
-		
+
 		List<WebElement> AllWebElement=driver.findElements(By.xpath("//a"));
 			int size=AllWebElement.size();
-			
+
 			for (int i = 0; i < size; i++) {
 				WebElement all=AllWebElement.get(i);
 				String text=all.getText();
 				System.out.println(text);
-				
+
 			}
-	}	
+	}
 
 }

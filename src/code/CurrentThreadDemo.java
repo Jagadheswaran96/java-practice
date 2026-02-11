@@ -13,7 +13,7 @@ class CurrentThreadDemo {
 		System.out.println("Current thread priority: " + threadPriority);
 		//Determine if a thread is still running
 		boolean threadAlive = t.isAlive();
-		System.out.println("Curren thread alive: " + threadAlive);		
+		System.out.println("Curren thread alive: " + threadAlive);
 		//change the name of the thread
 		t.setName("My Thread");
 		System.out.println("After name change: " + t);

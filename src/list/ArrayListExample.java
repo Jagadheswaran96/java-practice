@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ArrayListExample {
-	
+
 //	Arraylist class is implementation for list interface.
 //	Duplicate values are allowed
 //	Insertion order is maintained
@@ -18,14 +18,14 @@ public class ArrayListExample {
 //	It implements random access, serializable and cloneable interfaces.
 //		Serializable is nothing but changing the object to sharable in network
 //	Best suited for search opeartions but not for insertion and deletion.
-//		a)Becoz, when we insert new element to arraylist, it will create a another arraylist with new element and old 
+//		a)Becoz, when we insert new element to arraylist, it will create a another arraylist with new element and old
 //		arraylist goes to carpage memory
 //		b) when we delete, it will remove that element and re-arrange the places of remaining element so it is considered as
 //		time consuming opeartion
-		
+
 
 	public static void main(String[] args) {
-		
+
 		List<String> list=new ArrayList<>();
 		ArrayList<String> list2=new ArrayList<>();
 		list.add("name");

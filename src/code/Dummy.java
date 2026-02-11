@@ -1,7 +1,7 @@
 package code;
 
 public class Dummy {
-	
+
 	int a;
 	String b;
 	float c;

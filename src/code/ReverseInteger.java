@@ -1,11 +1,11 @@
 package code;
 
 class ReverseInteger {
-	
-	static int reverse(int n){ 
+
+	static int reverse(int n){
 		int reverse = 0; // reversed number
-		int remainder;   // remainder 
-		while(n>0){  
+		int remainder;   // remainder
+		while(n>0){
 			remainder = n%10;
 			reverse = (reverse*10) + remainder;
 			n = n/10;
@@ -28,6 +28,6 @@ class ReverseInteger {
 		StringBuffer buffer = new StringBuffer();
 		buffer.append(n);
 		System.out.println(buffer.reverse());
-	}	    
+	}
 
 }

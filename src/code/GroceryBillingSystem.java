@@ -8,7 +8,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 public class GroceryBillingSystem {
 
     static class Item {
-    	
+
     	  private int price;
     	  private int stock;
 

@@ -1,12 +1,12 @@
 package code;
 
 public class StringBufferBuilder {
-	
+
     public static void main(String[] args) {
-    	
-    	//Both provide similar methods like append(), insert(), replace(), delete(), and reverse() 
+
+    	//Both provide similar methods like append(), insert(), replace(), delete(), and reverse()
     	//for string manipulation.
-    	
+
         StringBuffer sb = new StringBuffer("Hello");
 
         // Create two threads that modify the same StringBuffer object
@@ -26,9 +26,9 @@ public class StringBufferBuilder {
 
         t1.start();
         t2.start();
-        
+
         //*********************************************
-        
+
         StringBuilder sbb = new StringBuilder("Hello");
 
         // Create two threads that modify the same StringBuilder object
@@ -48,9 +48,9 @@ public class StringBufferBuilder {
 
         t11.start();
         t22.start();
-        
+
         //**********************************
-        
+
         long startTime, endTime;
 
         // Using StringBuffer

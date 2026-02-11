@@ -1,7 +1,7 @@
 package code;
 
 public class Inheritance {
-    
+
  public void parenMethod(){
      System.out.println("this is parent method");
  }
@@ -13,7 +13,7 @@ public class Inheritance {
 /*
  * public class Child extends Inheritance{ Inheritance parent = new
  * Inheritance();
- * 
+ *
  * @Override public void parenMethod() { // TODO Auto-generated method stub
  * super.parenMethod(); } }
  */

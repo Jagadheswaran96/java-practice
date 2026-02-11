@@ -20,7 +20,7 @@ public class FindDuplicateWordsInString
 		Set<String> duplicates = new HashSet<>();
 		String[] words = input.split(" ");
 		Set<String> set = new HashSet<>();
-		for(String word : words){ 
+		for(String word : words){
 			if(!set.add(word)){
 				duplicates.add(word);
 			}

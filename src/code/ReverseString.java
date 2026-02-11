@@ -24,7 +24,7 @@ public class ReverseString {
 		StringBuilder string = new StringBuilder("12345");
 		string.append(string);
 		System.out.println(string.reverse() + " - reversed using string builder");
-		
+
 		System.out.println("Reversed String using recursion method: " + reverse("Hello World"));
 
 	}

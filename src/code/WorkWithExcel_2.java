@@ -14,7 +14,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 public class WorkWithExcel_2 {
 
 	public String excelLogin(String sheetName, int rowValue, int CellValue) throws EncryptedDocumentException, IOException {
-		String data=null;	
+		String data=null;
 		FileInputStream fileInputStream=new FileInputStream("C:\\Users\\Jagadhez\\OneDrive\\Desktop\\Book.xlsx");
 		Workbook workbook=WorkbookFactory.create(fileInputStream);
 		Sheet sheet=workbook.getSheet(sheetName);
@@ -22,10 +22,11 @@ public class WorkWithExcel_2 {
 		Cell cell=row.getCell(CellValue);
 		//returnValue=cell.getStringCellValue();
 		//System.out.println(returnValue);
-		if(cell.getCellType()==CellType.STRING) 
-		    data = cell.getStringCellValue(); 
-		else if(cell.getCellType()==CellType.NUMERIC) 
-		   data = String.valueOf(cell.getNumericCellValue());
+		if(cell.getCellType()==CellType.STRING) {
+			data = cell.getStringCellValue();
+		} else if(cell.getCellType()==CellType.NUMERIC) {
+			data = String.valueOf(cell.getNumericCellValue());
+		}
 		System.out.println(cell);
 		workbook.close();
 		return data;

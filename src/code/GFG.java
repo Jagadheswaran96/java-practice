@@ -20,14 +20,18 @@ public class GFG {
 		int i;
 
 		// Check if it is possible or not That is if all the elements from index K to N are not equal
-		for (i = k - 1; i < n; i++)
-			if (arr[i] != arr[k - 1])
+		for (i = k - 1; i < n; i++) {
+			if (arr[i] != arr[k - 1]) {
 				return -1;
+			}
+		}
 
 		// Find minimum number of moves
-		for (i = k - 1; i >= 0; i--)
-			if (arr[i] != arr[k - 1])
+		for (i = k - 1; i >= 0; i--) {
+			if (arr[i] != arr[k - 1]) {
 				return i + 1;
+			}
+		}
 
 		// Elements are already equal
 		return 0;

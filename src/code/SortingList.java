@@ -7,11 +7,11 @@ public class SortingList {
 
 	public static void main(String[] args) {
 
-		String[] value= {"name1","name2","name3","name4"};		
+		String[] value= {"name1","name2","name3","name4"};
 		System.out.println("Retrieve String Values with Index: " + value[1] + " " + value[2]);
 
 		int[] values= {4,2,1,5,3};
-		
+
 		int length=values.length;
 		System.out.println("Input size: " + length);
 
@@ -26,15 +26,15 @@ public class SortingList {
 		    }
 		}
 		System.out.println("Using pubble sort method: " + Arrays.toString(values));
-		
+
 		//2. using parallel sort built in method
 		Arrays.parallelSort(values);
 		System.out.println("Using parallel sort method: " + Arrays.toString(values));
-		
+
 		//3. using sort built in method
 		Arrays.sort(values);
 		System.out.println("Using sort method: " + Arrays.toString(values));
-		
+
 		//4. using collections.reverseorder built in method
 		Integer[] values1= {4,2,1,5,3};
 		Arrays.sort(values1, Collections.reverseOrder());

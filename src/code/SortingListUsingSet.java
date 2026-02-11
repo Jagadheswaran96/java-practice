@@ -8,16 +8,16 @@ import java.util.TreeSet;
 
 public class SortingListUsingSet {
 
-	public static void main(String args[]) { 
+	public static void main(String args[]) {
 		int[] count =  {22, 11, 44, 33, 66, 55};
-		Set<Integer> hset = new HashSet<Integer>();
+		Set<Integer> hset = new HashSet<>();
 		try{
-			for(int i = 0; i < count.length; i++){
-				hset.add(count[i]);
+			for (int element : count) {
+				hset.add(element);
 			}
 			System.out.println("Values from Set: " + hset);
 
-			TreeSet<Integer> treeset = new TreeSet<Integer>(hset);
+			TreeSet<Integer> treeset = new TreeSet<>(hset);
 			System.out.println("Sorted Using TreeSet: " + treeset);
 
 			Arrays.sort(count);

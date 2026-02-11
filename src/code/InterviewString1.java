@@ -1,7 +1,7 @@
 package code;
 
 public class InterviewString1 {
-	
+
 	public static String compressString(String input) {
         if (input == null || input.length() == 0) {
             return "";
@@ -40,12 +40,12 @@ public class InterviewString1 {
 //	public static void main(String[] args) {
 //
 //			String input = "aaAAbbCCddd";
-//			
+//
 //			for (int i = 0; i < input.length(); i++) {
 //				if () {
-//					
+//
 //				}
-//				
+//
 //			}
 //	}
 

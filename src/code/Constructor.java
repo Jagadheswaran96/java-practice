@@ -17,8 +17,8 @@ public class Constructor {
 	//	Byte: Wraps a byte value.
 	//	Short: Wraps a short value.
 	//	Float: Wraps a float value.
-	
-	/////// Note: When there are more methods with same name with diff arguments, 
+
+	/////// Note: When there are more methods with same name with diff arguments,
 	//it will pick only argumented method(which has more arguments) not every methods
 
 	//	1) default constructor -> it will provide values like 0, null, etc... based on the type
@@ -50,9 +50,9 @@ public class Constructor {
 		length=10;
 		text="User-defined constructor without argument";
 	}
-	
+
 	// 3) Parameterized constructor -> User-defined constructor with arguments
-	
+
 	int area;
 	String areaname;
 
@@ -60,27 +60,27 @@ public class Constructor {
 		area=count;
 		areaname=name;
 	}
-	
+
 	public void parameterizedConstructor() {
 		System.out.println(area+areaname);
 	}
 
 	public static void main(String[] args) {
 		Constructor constructor = new Constructor(100, "India");
-		System.out.println(constructor.name); 
-		System.out.println(constructor.number); 
+		System.out.println(constructor.name);
+		System.out.println(constructor.number);
 		System.out.println(constructor.number2);
 		System.out.println(constructor.number3);
 		System.out.println(constructor.result);
-		System.out.println(constructor.number4); 
+		System.out.println(constructor.number4);
 		System.out.println(constructor.number5);
 		System.out.println(constructor.number6);
 		System.out.println(constructor.number7);
-		System.out.println(constructor.number8); 
+		System.out.println(constructor.number8);
 		System.out.println(constructor.number9);
 		System.out.println(constructor.number10);
 		System.out.println(constructor.result2);
-		System.out.println(constructor.number11); 
+		System.out.println(constructor.number11);
 		System.out.println(constructor.number12);
 		System.out.println(constructor.number13);
 		System.out.println(constructor.number14);

@@ -17,7 +17,7 @@ Use ObjectInputStream to read the object from a file. */
 
 class Person implements Serializable {
 	/**
-	 * 
+	 *
 	 */
 	private static final long serialVersionUID = -7038948375760731463L;
 	private String name;

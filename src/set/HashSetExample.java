@@ -1,7 +1,7 @@
 package set;
 
 public class HashSetExample {
-	
+
 //	Hashset class is implementation for Set interface.
 //	Duplicate values are not allowed.
 //	Insertion order is not maintained.

@@ -10,9 +10,9 @@ import org.json.simple.parser.JSONParser;
 public class JsonReader {
 
 	public static void main(String[] args) throws Exception {
-				
+
 		FileReader fileReader=new FileReader("Writer.json");
-		JSONParser jsonParser=new JSONParser();		
+		JSONParser jsonParser=new JSONParser();
 		Object object=jsonParser.parse(fileReader);
 		JSONObject jsonObject= (JSONObject) object;
 		String name=(String) jsonObject.get("name");
@@ -24,7 +24,7 @@ public class JsonReader {
 		while (iterator.hasNext()) {
 			Object obj = iterator.next();
 		    String item = (String) obj;
-			System.out.println("special obeject is " + item);			
+			System.out.println("special obeject is " + item);
 		}
 	}
 

@@ -1,9 +1,9 @@
 package code;
 
 public class ThisKeyword {
-	
+
 	//Super keyword will be used only in Inheritance
-	
+
 	ThisKeyword(int a){
 		System.out.println("1");
 	}
@@ -15,10 +15,10 @@ public class ThisKeyword {
 		this(1,2);
 		System.out.println("3");
 	}
-	
+
 	public static void main(String[] args) {
 		ThisKeyword java=new ThisKeyword(1, 2, 3);
 		System.out.println(java);
-		
+
 	}
 }

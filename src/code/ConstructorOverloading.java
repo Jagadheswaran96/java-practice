@@ -1,7 +1,7 @@
 package code;
 
 public class ConstructorOverloading {
-	
+
 	ConstructorOverloading(String name){
 		System.out.println("this is constructor" + name);
 	}
@@ -10,9 +10,9 @@ public class ConstructorOverloading {
 	}
 
 	public static void main(String[] args) {
-		new ConstructorOverloading(10); 
+		new ConstructorOverloading(10);
 		new ConstructorOverloading("selenium");
-		
+
 	}
 
 }

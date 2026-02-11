@@ -16,10 +16,8 @@ public class Mars {
 		int sum=i1;
 		int max=Integer.MIN_VALUE;
 		List<Integer> l=new ArrayList<>();
-		for(int i=0;i<i3.length;i++)
-
-		{
-			l.add(i3[i]);
+		for (int element : i3) {
+			l.add(element);
 		}
 		for(int i=1;i<=i1;i++)
 		{

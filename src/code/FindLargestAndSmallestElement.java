@@ -20,7 +20,7 @@ public class FindLargestAndSmallestElement {
 		System.out.println("Given an array is" + " " + Arrays.toString(a));
 		System.out.println("Largest number is" + " " + largest);
 		System.out.println("Smallest number is" + " " + smallest);
-		
+
 		Arrays.parallelSort(a);
 		System.out.println(Arrays.toString(a));
 		Arrays.sort(a);

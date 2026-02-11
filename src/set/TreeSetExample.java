@@ -1,7 +1,7 @@
 package set;
 
 public class TreeSetExample {
-	
+
 //	TreeSet class is implementation for SortedSet, Comparable and NavigableSet interface.
 //	Duplicate values are not allowed.
 //	Elements will be retrieved on natural sorting order.

@@ -1,7 +1,7 @@
 package code;
 
 public class Static {
-	
+
 	public static void staticMethod() {
 		System.out.println("static method");
 	}
@@ -12,7 +12,7 @@ public class Static {
 	public void nonStaticMethod2() {
 		System.out.println("non static method 2");
 		nonStaticMethod();
-	} 
+	}
 	static {
 		System.out.println("n number of static block can be present in a class");
 	}

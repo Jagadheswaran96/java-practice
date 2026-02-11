@@ -15,7 +15,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 public class WorkWithExcel {
 
 	public static void main(String[] args) {
-		
+
 		try {
 			FileInputStream file = new FileInputStream("C:\\Users\\Jagadhez\\OneDrive\\Desktop\\Book.xlsx");
 			Workbook workbook = WorkbookFactory.create(file);
@@ -23,10 +23,11 @@ public class WorkWithExcel {
 			Row row = sheet.getRow(0);
 			Cell cell = row.getCell(0);
 			//String string = cell.getStringCellValue();
-			if(cell.getCellType()==CellType.STRING) 
-			    cell.getStringCellValue(); 
-			else if(cell.getCellType()==CellType.NUMERIC) 
+			if(cell.getCellType()==CellType.STRING) {
+				cell.getStringCellValue();
+			} else if(cell.getCellType()==CellType.NUMERIC) {
 				String.valueOf(cell.getNumericCellValue());
+			}
 			System.out.println(cell);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block

@@ -9,6 +9,7 @@ class NewThreads extends Thread {
 		start(); // Start the thread
 	}
 	//This is the entry point for the second thread.
+	@Override
 	public void run() {
 		try {
 			for(int i = 5; i > 0; i--) {

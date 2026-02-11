@@ -2,7 +2,6 @@ package code;
 
 import java.io.IOException;
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
 
 import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.By;
@@ -27,7 +26,7 @@ public class LoginWithExcelData {
 			driver.findElement(By.id("logoutLink")).click();
 			Thread.sleep(10000);
 		}
-		
+
 	}
 
 }

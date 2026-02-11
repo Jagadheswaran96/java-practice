@@ -10,7 +10,7 @@ public class CountWordsUsingHashMap {
 		CountWordsUsingHashMap hashMap = new CountWordsUsingHashMap();
 		hashMap.countWords("Count 0-9 words using HashMap");
 	}
-	
+
 	public void countWords(String input) {
 		input = input.replaceAll("[^a-zA-Z ]", "");
 		System.out.println(input);

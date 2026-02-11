@@ -1,7 +1,7 @@
 package list;
 
 public class LinkedListExample {
-	
+
 //	To understand Linkedlist in visual
 //		https://visualgo.net/en/list?slide=1
 

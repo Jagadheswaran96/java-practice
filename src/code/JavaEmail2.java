@@ -18,7 +18,7 @@ import javax.mail.internet.MimeMultipart;
 public class JavaEmail2 {
 
 	public static void main(String[] args) {
-		
+
 		// Recipient's email ID needs to be mentioned.
         String to = "jagadhesjack88@gmail.com";
 
@@ -34,10 +34,11 @@ public class JavaEmail2 {
         properties.put("mail.smtp.ssl.enable", "true");
         properties.put("mail.smtp.auth", "true");
 
-        // Get the Session object.// and pass 
+        // Get the Session object.// and pass
         Session session = Session.getInstance(properties, new javax.mail.Authenticator() {
 
-            protected PasswordAuthentication getPasswordAuthentication() {
+            @Override
+			protected PasswordAuthentication getPasswordAuthentication() {
 
                 return new PasswordAuthentication("jagadhesjack88@gmail.com", "****");
 

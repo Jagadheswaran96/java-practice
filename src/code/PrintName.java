@@ -10,9 +10,9 @@ public class PrintName {
 		int value = scanner.nextInt();
 		scanner.close();
 		System.out.println("the value entered is :" + value);
-		
-		
-		
+
+
+
 	}
 
 }

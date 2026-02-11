@@ -23,7 +23,7 @@ public class PrintUpperCasefromString {
 					list.add(ch);
 					//list.add(Character.toLowerCase(ch));
 				}
-			}			
+			}
 		}
 		System.out.println(hashSet);
 		System.out.println(list);

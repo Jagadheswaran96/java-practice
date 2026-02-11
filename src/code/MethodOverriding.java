@@ -1,9 +1,9 @@
 package code;
 
 public class MethodOverriding extends MethodOverloading{
-	
+
 	public static void MethodOverload(String a) {
-		System.out.println("Override one");		
+		System.out.println("Override one");
 	}
 	public static void MethodOverload(String a, String b) {
 		System.out.println("Override two");

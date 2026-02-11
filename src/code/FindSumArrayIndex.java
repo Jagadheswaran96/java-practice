@@ -1,9 +1,6 @@
 package code;
 
-import java.util.Arrays;
 import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
 
 public class FindSumArrayIndex {
 
@@ -39,7 +36,7 @@ public class FindSumArrayIndex {
 //            for (Integer value : map.values()) {
 //                System.out.println("Value: " + value);
 //            }
-//            map.forEach((key, value) -> 
+//            map.forEach((key, value) ->
 //            System.out.println("Key: " + key + ", Value: " + value)
 //        );
 //            Iterator<Map.Entry<Integer, Integer>> iterator = map.entrySet().iterator();
@@ -52,7 +49,7 @@ public class FindSumArrayIndex {
 //            .forEach(e -> System.out.printf("Key=%d | Value=%s%n", e.getKey(), e.getValue()));
             String mapAsString = map.toString();
             System.out.println(mapAsString);
-            
+
             // Case 2: subarray found using prefix sum
             if (map.containsKey(currentSum - target)) {
                 int start = map.get(currentSum - target) + 1;

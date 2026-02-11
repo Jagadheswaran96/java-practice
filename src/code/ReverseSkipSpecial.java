@@ -3,7 +3,7 @@ package code;
 public class ReverseSkipSpecial {
 
 	public static void main(String[] args) {
-		
+
 		String input = "$ABC#123@PQ";
 		char[] chars = input.toCharArray();
 		int left = 0;

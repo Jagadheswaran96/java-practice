@@ -5,10 +5,10 @@ public class FindMaxWealthUsingArray {
 
 	public static int maxWealth(int[][] accounts) {
 		 int maxWealth = 0;
-		 for (int i = 0; i < accounts.length; i++) {
+		 for (int[] account : accounts) {
 			int currentWealth = 0;
-			for (int j = 0; j < accounts[i].length; j++) {
-				currentWealth += accounts[i][j];
+			for (int element : account) {
+				currentWealth += element;
 			}
 			if (currentWealth > maxWealth) {
 				maxWealth = currentWealth;
@@ -16,7 +16,7 @@ public class FindMaxWealthUsingArray {
 		}
 		 return maxWealth;
 	}
-	
+
 	public static void main(String[] args) {
 		int[][] accounts = {
 			    {1, 2, 3},

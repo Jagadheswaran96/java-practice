@@ -6,7 +6,7 @@ import java.time.format.DateTimeFormatter;
 public class FileDateChecker {
     public static void main(String[] args) {
         // File name
-        String fileName = "Template Bot CARPs DROP 6.19";
+        String fileName = "Template Bot CARPs DROP 2.18";
 
         // Extract date and month from the file name
         String[] parts = fileName.split(" ");

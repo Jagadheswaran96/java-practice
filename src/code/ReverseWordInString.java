@@ -1,19 +1,27 @@
 package code;
 
-import java.util.Arrays;
-
 public class ReverseWordInString {
 
 	public static void main(String[] args) {
-		String input = "reverse a word";
-        String s[] = input.split(" ");
-        System.out.println(Arrays.toString(s));
-        String res = "";
-        for (int i = s.length - 1; i >= 0; i--) {
-            res += s[i] + " ";
+		
+		String input = "Reverse a Word";
+        String[] words = input.split(" ");
+        
+//		1. Reverse the word
+        String reversedWord = "";
+        for (int i = words.length - 1; i >= 0; i--) {
+        	reversedWord += words[i] + " ";
         }
-        System.out.println(res);
-        System.out.println(res.substring(0, res.length() - 1));
+        System.out.println("Reverse the word: " + reversedWord);
+        
+//      2. Reverse the characters of each word without reversing word
+        System.out.print("Reverse the characters of each word without reversing word: ");
+        for (String word : words) {
+        	for (int i=word.length()-1; i>=0; i--) {
+        		System.out.print(word.charAt(i));
+        	}
+        	System.out.print(" ");
+        }
 
 	}
 

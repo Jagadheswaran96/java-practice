@@ -31,13 +31,10 @@ public class FindCountofWords {
 		String wordings = "One Two Three Four";
 		char[] splitted = wordings.toCharArray();
 		int wordCounts = 1;
-		boolean inWord = false;
 		for (char split : splitted) {
 			if (Character.isWhitespace(split)) {
-				inWord = false;
 				wordCounts++;
 			} else if (!Character.isWhitespace(split)) {
-				inWord=true;
 			}
 		}
 		System.out.println(wordCounts);

@@ -19,7 +19,7 @@ public class FindArmstrongNumber {
 
     public static void main(String[] args) {
         int num1 = 153;
-        int num2 = 123;
+        int num2 = 2568;
 
         if (isArmstrong(num1)) {
             System.out.println(num1 + " is an Armstrong number.");

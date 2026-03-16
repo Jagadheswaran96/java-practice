@@ -21,6 +21,8 @@ public class JsonWriter {
 		FileWriter fileWriter=new FileWriter("Writer.json");
 		fileWriter.write(jsonObject.toString());
 		fileWriter.close();
+		System.out.println(jsonObject.toString());
+		System.out.println(jsonObject);
 	}
 
 }

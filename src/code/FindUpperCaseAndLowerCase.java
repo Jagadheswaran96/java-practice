@@ -12,15 +12,17 @@ public class FindUpperCaseAndLowerCase {
 	 *
 	 * } }
 	 */
-	 public static void main (String[]args)
-	  {
-	    String name = "Jagadhes";
-	    for (int i=0; i<name.length(); i++)
-	      {
-		if (Character.isUpperCase(name.charAt(i)))
-		  {
-		    System.out.println ("Hello World");
-		  }
-	      }
-	  }
+	public static void main (String[]args)
+	{
+		String name = "Jagadhes";
+		for (int i=0; i<name.length(); i++)
+		{
+			if (Character.isUpperCase(name.charAt(i)))
+			{
+				System.out.println(name.charAt(i) + " is Uppercase");
+			} else {
+				System.out.println(name.charAt(i) + " is Lowercase");
+			}
+		}
+	}
 }

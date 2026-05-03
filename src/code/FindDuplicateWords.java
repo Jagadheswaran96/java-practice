@@ -3,7 +3,7 @@ package code;
 import java.util.HashSet;
 import java.util.Set;
 
-public class FindDuplicateWordsInString
+public class FindDuplicateWords
 {
 	public static void main(String[] args){
 		String test = "jagadheswaran delivered the product to jagadheswaran";

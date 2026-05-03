@@ -3,7 +3,7 @@ package code;
 import java.util.HashMap;
 import java.util.Map;
 
-public class FindDuplicateWithMap {
+public class FindDuplicateCharWithMap {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -32,23 +32,6 @@ public class GroceryBillingSystem {
 
     static ObjectMapper mapper = new ObjectMapper();
 
-    public static void main(String[] args) throws Exception {
-
-        Map<String, Item> inventory = new HashMap<>();
-        inventory.put("apple", new Item(3, 50));
-        inventory.put("banana", new Item(1, 100));
-        inventory.put("milk", new Item(5, 20));
-        inventory.put("bread", new Item(2, 30));
-
-        Map<String, Integer> order = new HashMap<>();
-        order.put("apple", 4);
-        order.put("milk", 2);
-
-        printOrderAsJson(order);
-        generateBill(inventory, order);
-        printInventoryAsJson(inventory);
-    }
-
     // Print order JSON
     public static void printOrderAsJson(Map<String, Integer> order) throws Exception {
         System.out.println("Inventory Order:");
@@ -116,6 +99,23 @@ public class GroceryBillingSystem {
     public static void printInventoryAsJson(Map<String, Item> inventory) throws Exception {
         System.out.println("\nUpdated Inventory:");
         System.out.println(mapper.writerWithDefaultPrettyPrinter().writeValueAsString(inventory));
+    }
+    
+    public static void main(String[] args) throws Exception {
+
+        Map<String, Item> inventory = new HashMap<>();
+        inventory.put("apple", new Item(3, 50));
+        inventory.put("banana", new Item(1, 100));
+        inventory.put("milk", new Item(5, 20));
+        inventory.put("bread", new Item(2, 30));
+
+        Map<String, Integer> order = new HashMap<>();
+        order.put("apple", 4);
+        order.put("milk", 2);
+
+        printOrderAsJson(order);
+        generateBill(inventory, order);
+        printInventoryAsJson(inventory);
     }
 }
 
